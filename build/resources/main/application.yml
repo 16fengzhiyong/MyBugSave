@@ -1,0 +1,27 @@
+spring:
+  application:
+    name:fzytest
+  mandatory-file-encoding: UTF-8
+  http:
+    encoding:
+      enabled: true
+      charset: UTF-8
+
+server:
+  port: 8080
+#端口号
+myConfig:
+  myObject:
+    myName: fzy
+#    注意冒号后面有空格
+#    使用方式：注解使用 @Value("${myConfig.myObject.myName}")
+animal:
+  name: dog
+  age: 2
+  birth: 2017/12/12
+  maps: {key1: value1,key2: value2}
+  list:
+    - item1
+    - item2
+  next:
+    debug: false

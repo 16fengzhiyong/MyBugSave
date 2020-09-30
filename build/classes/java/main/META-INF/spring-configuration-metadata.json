@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "animal",
+      "type": "top.myfyc.www.domain.Animal",
+      "sourceType": "top.myfyc.www.domain.Animal"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
